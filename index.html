@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project-1</title>
+</head>
+<style>
+    body{
+        background-color:rgb(21, 255, 0);
+    }
+    img{
+        display:flexbox;
+        justify-content:space-around;
+        padding: 55px;
+        margin: 10px;
+        border: 3px solid white;
+        border-radius: 45px;
+        width: 175px;
+        height: 175px;
+    }
+
+    img:hover {
+        border: 2px dashed black;
+        border-radius: 36px;
+    }
+
+    #one{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 70px;
+        color: darkorchid;
+    }
+
+    #two{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 35px;
+        color: darkorchid;
+    }
+
+    #three{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 28.5px;
+        color: darkorchid;
+    }
+    </style>
+<body>
+
+    <center><span Id="one"><u>Funny Learning...!👻</u></span> <br>
+        <span Id="two">~Learn by Clicking~ </span><br>
+        <span Id="three">Click on any Letter</span>
+    </center>
+    <hr>
+    <br>
+    <center>
+    <img onclick="apple()" id="a" src="./A for.png">
+    <img onclick="ball()" id="b" src="./B for.png">
+    <img onclick="cat()" id="c" src="./C for.png">
+    <img onclick="dog()" id="d" src="./D for.png">
+    <img onclick="elephant()" id="e" src="./E for.png">
+    <img onclick="fish()" id="f" src="./F for.png">
+    <img onclick="goat()" id="g" src="./G for.png">
+    <img onclick="hand()" id="h" src="./H for.png">
+    <img onclick="ink()" id="i" src="./I for.png">
+    <img onclick="juice()" id="j" src="./J for.png">
+    <img onclick="king()" id="k" src="./K for.png">
+    <img onclick="leaf()" id="l" src="./L for.png">
+    <img onclick="monkey()" id="m" src="./M for.png">
+    <img onclick="neck()" id="n" src="./N for.png">
+    <img onclick="ocean()" id="o" src="./O for.png">
+    <img onclick="parrot()" id="p" src="./P for.png">
+    <img onclick="queen()" id="q" src="./Q for.png">
+    <img onclick="rose()" id="r" src="./R for.png">
+    <img onclick="sunflower()" id="s" src="./S for.png">
+    <img onclick="tap()" id="t" src="./T for.png">
+    <img onclick="uncle()" id="u" src="./U for.png">
+    <img onclick="violin()" id="v" src="./V for.png">
+    <img onclick="well()" id="w" src="./W for.png">
+    <img onclick="fox()" id="x" src="./X for.png">
+    <img onclick="yellow()" id="y" src="./Y for.png">
+    <img onclick="zebra()" id="z" src="./Z for.png">
+    
+</center>
+    <audio></audio>
+    <script>
+
+        // Sounds
+            var asound = new Audio('a for apple.mp3');
+            var bsound = new Audio('b for ball.mp3');
+            var csound = new Audio('c for cat.mp3');
+            var dsound = new Audio('d for dog.mp3');
+            var esound = new Audio('e for elephant.mp3');
+            var fsound = new Audio('f for fish.mp3');
+            var gsound = new Audio('g for goat.mp3');
+            var hsound = new Audio('h for hand.mp3');
+            var isound = new Audio('i for ink.mp3');
+            var jsound = new Audio('j for juice.mp3');
+            var ksound = new Audio('k for king.mp3');
+            var lsound = new Audio('l for leaf.mp3');
+            var msound = new Audio('m for monkey.mp3');
+            var nsound = new Audio('n for nose.mp3');
+            var osound = new Audio('o for ocean.mp3');
+            var psound = new Audio('p for parrot.mp3');
+            var qsound = new Audio('q for queen.mp3');
+            var rsound = new Audio('r for rat.mp3');
+            var ssound = new Audio('s for sunflower.mp3');
+            var tsound = new Audio('t for tap.mp3');
+            var usound = new Audio('u for uncle.mp3');
+            var vsound = new Audio('v for viloin.mp3');
+            var wsound = new Audio('w for well.mp3');
+            var xsound = new Audio('x for fox.mp3');
+            var ysound = new Audio('y for yellow.mp3');
+            var zsound = new Audio('z for zebra.mp3');
+
+        // functions a to z
+
+        function apple(){
+            document.getElementById("a").src = "A for apple.png";
+
+            // sound play
+            asound.play();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            xsound.pause();
+            wsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function ball(){
+            
+            // sound play
+            asound.pause();
+            bsound.play();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("b").src = "B for ball.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function cat(){
+            
+            // sound play
+            asound.pause();
+            bsound.pause();
+            csound.play();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("c").src = "C for cat.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function dog(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.play();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("d").src = "D for dog.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function elephant(){
+
+         // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.play();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("e").src = "E for elephant.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function fish(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.play();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("f").src = "F for fish.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function goat(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.play();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("g").src = "G for goat.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function hand(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.play();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("h").src = "H for hand.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function ink(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.play();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("i").src = "I for ink.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function juice(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.play();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("j").src = "J for juice.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function king(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.play();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("k").src = "K for king.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function leaf(){
+
+            // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.play();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("l").src = "L for Leaf.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function monkey(){
+
+            // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.play();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+
+            document.getElementById("m").src = "M for monkey.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function neck(){
+
+            // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.play();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("n").src = "N for neck.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function ocean(){
+
+            // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.play();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("o").src = "O for ocean.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function parrot(){
+
+            // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.play();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("p").src = "P for parrot.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function queen(){
+
+            // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.play();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("q").src = "Q for queen.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function rose(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.play();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+
+            document.getElementById("r").src = "R for rope.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function sunflower(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.play();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("s").src = "S for sunflower.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function tap(){
+
+        // sound play
+             asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.play();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("t").src = "T for tap.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function uncle(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.play();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("u").src = "U for uncle.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function violin(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.play();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("v").src = "V for violin.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function well(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            xsound.pause();
+            wsound.play();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("w").src = "W for well.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function fox(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.play();
+            ysound.pause();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("x").src = "X for fox.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("y").src = "Y for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function yellow(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.play();
+            zsound.pause();
+
+        //Picture change
+
+            document.getElementById("y").src = "Y for yellow.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("z").src = "Z for.png";
+        }
+
+        function zebra(){
+
+        // sound play
+            asound.pause();
+            bsound.pause();
+            csound.pause();
+            dsound.pause();
+            esound.pause();
+            fsound.pause();
+            gsound.pause();
+            hsound.pause();
+            isound.pause();
+            jsound.pause();
+            ksound.pause();
+            lsound.pause();
+            msound.pause();
+            nsound.pause();
+            osound.pause();
+            psound.pause();
+            qsound.pause();
+            rsound.pause();
+            ssound.pause();
+            tsound.pause();
+            usound.pause();
+            vsound.pause();
+            wsound.pause();
+            xsound.pause();
+            ysound.pause();
+            zsound.play();
+
+        //Picture change
+
+            document.getElementById("z").src = "Z for zebra.png";
+            document.getElementById("a").src = "A for.png";
+            document.getElementById("b").src = "B for.png";
+            document.getElementById("c").src = "C for.png";
+            document.getElementById("d").src = "D for.png";
+            document.getElementById("e").src = "E for.png";
+            document.getElementById("f").src = "F for.png";
+            document.getElementById("g").src = "G for.png";
+            document.getElementById("h").src = "H for.png";
+            document.getElementById("i").src = "I for.png";
+            document.getElementById("j").src = "J for.png";
+            document.getElementById("k").src = "K for.png";
+            document.getElementById("l").src = "L for.png";
+            document.getElementById("m").src = "M for.png";
+            document.getElementById("n").src = "N for.png";
+            document.getElementById("o").src = "O for.png";
+            document.getElementById("p").src = "P for.png";
+            document.getElementById("q").src = "Q for.png";
+            document.getElementById("r").src = "R for.png";
+            document.getElementById("s").src = "S for.png";
+            document.getElementById("t").src = "T for.png";
+            document.getElementById("u").src = "U for.png";
+            document.getElementById("v").src = "V for.png";
+            document.getElementById("w").src = "W for.png";
+            document.getElementById("x").src = "X for.png";
+            document.getElementById("y").src = "Y for.png";
+        }
+    </script>
+
+</body>
+</html>
